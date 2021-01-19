@@ -13,6 +13,7 @@ const App = () => (
         <div className="App">
           <Switch>
             <Route path="/" component={Home} />
+            <h1>Hello!</h1>
           </Switch>
         </div>
       </ApolloProvider>
